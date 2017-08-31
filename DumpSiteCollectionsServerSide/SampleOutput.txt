@@ -1,0 +1,46 @@
+SPSite Url=http://sitecollection1
+
+
+AadPassThroughPolicyId                          : 00000000-0000-0000-0000-000000000000
+AdministrationSiteType                          : None
+AllowCreateDeclarativeWorkflow                  : True
+AllowDesigner                                   : True
+AllowExternalEmbedding                          : AllowedDomains
+AllowMasterPageEditing                          : False
+AllowRevertFromTemplate                         : False
+AllowRssFeeds                                   : True
+AllowSaveDeclarativeWorkflowAsTemplate          : True
+AllowSavePublishDeclarativeWorkflow             : True
+AllowSelfServiceUpgrade                         : True
+AllowSelfServiceUpgradeEvaluation               : True
+AllowUnsafeUpdates                              : True
+AllWebs                                         : {Team Site}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UserAccountDirectoryPath                        : 
+UserCodeEnabled                                 : False
+UserCustomActions                               : {}
+UserDefinedWorkflowsEnabled                     : True
+UserIsSiteAdminInSystem                         : True
+UserToken                                       : Microsoft.SharePoint.SPUserToken
+WarningNotificationSent                         : False
+WebApplication                                  : SPWebApplication Name=SharePoint Hosting
+WorkflowManager                                 : Microsoft.SharePoint.Workflow.SPWorkflowManager
+WriteLocked                                     : False
+Zone                                            : Default
+
+
+SPSite Url=https://sitecollection1
+
+AadPassThroughPolicyId                          : 00000000-0000-0000-0000-000000000000
+AdministrationSiteType                          : None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zone                                            : Default
+
+
+SPSite Url=https://acme.collaboration.com
+
+AadPassThroughPolicyId                          : 00000000-0000-0000-0000-000000000000
+AdministrationSiteType                          : None
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Zone                                            : Default
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

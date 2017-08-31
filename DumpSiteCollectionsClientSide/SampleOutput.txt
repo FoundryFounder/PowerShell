@@ -1,0 +1,46 @@
+Enter Tenant SharePoint admin site URL: https://acme-admin.sharepoint.com
+Enter Admin User: John.Huschka@acme.com
+
+O365 SITE https://acme.sharepoint.com/sites/Wiley
+Microsoft.Online.SharePoint.PowerShell.SPOSite
+AllowLimitedAccess : False
+AllowSelfServiceUpgrade : True
+BlockDownloadOfNonViewableFiles : False
+CommentsOnSitePagesDisabled : False
+CompatibilityLevel : 15
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Url : https://acme.sharepoint.com/sites/Wiley
+WebsCount : 0
+
+SHAREPOINT SITE https://acme.sharepoint.com/sites/Wiley
+Microsoft.SharePoint.Client.Site
+AllowCreateDeclarativeWorkflow : True
+AllowDesigner : True
+AllowMasterPageEditing : False
+AllowRevertFromTemplate : False
+AllowSaveDeclarativeWorkflowAsTemplate : True
+AllowSavePublishDeclarativeWorkflow : True
+AllowSelfServiceUpgrade : True
+AllowSelfServiceUpgradeEvaluation : True
+Audit : Microsoft.SharePoint.Client.Audit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UserCustomActions : {}
+
+O365 SITE https://acme.sharepoint.com/search
+Microsoft.Online.SharePoint.PowerShell.SPOSite
+AllowLimitedAccess : False
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WebsCount : 0
+
+SHAREPOINT SITE https://acme.sharepoint.com/search
+Microsoft.SharePoint.Client.Site
+AllowCreateDeclarativeWorkflow : True
+AllowDesigner : True
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UserCustomActions : {}
+
+O365 SITE https://acme.sharepoint.com/portals/hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+SHAREPOINT SITE https://acme.sharepoint.com/portals/hub
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
