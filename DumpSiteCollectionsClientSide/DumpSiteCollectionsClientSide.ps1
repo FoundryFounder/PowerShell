@@ -31,7 +31,6 @@ function DumpObjectProperties($objectToDump){
    }
 }
 
-
 Add-Type -Path 'Microsoft.SharePoint.Client.dll'
 Add-Type -Path 'Microsoft.SharePoint.Client.Runtime.dll'
 

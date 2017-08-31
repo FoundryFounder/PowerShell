@@ -1,6 +1,5 @@
 SPSite Url=http://sitecollection1
 
-
 AadPassThroughPolicyId                          : 00000000-0000-0000-0000-000000000000
 AdministrationSiteType                          : None
 AllowCreateDeclarativeWorkflow                  : True
@@ -28,14 +27,12 @@ WorkflowManager                                 : Microsoft.SharePoint.Workflow.
 WriteLocked                                     : False
 Zone                                            : Default
 
-
 SPSite Url=https://sitecollection1
 
 AadPassThroughPolicyId                          : 00000000-0000-0000-0000-000000000000
 AdministrationSiteType                          : None
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Zone                                            : Default
-
 
 SPSite Url=https://acme.collaboration.com
 

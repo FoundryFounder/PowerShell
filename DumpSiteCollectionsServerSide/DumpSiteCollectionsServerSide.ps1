@@ -22,7 +22,6 @@ function DumpObjectProperties($objectToDump){
    $objectToDump | Format-List -Property ([string[]]($objectToDump | Get-Member -MemberType Property | %{ $_.Name } | Sort-Object)) 
 }
 
-
 $sites = get-spsite | Where-Object{$_.Url -like '*'}
 foreach($site in $sites){
     DumpObjectProperties $site
