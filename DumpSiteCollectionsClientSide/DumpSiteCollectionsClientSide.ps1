@@ -22,7 +22,6 @@ function DumpObjectProperties($objectToDump){
    foreach ($propertyName in $propertyNames){
      $propertyNameArray = @($PropertyName)
      try{
-       # write-host ($objectToDump | select-object -Property $propertyNameArray | format-list | Out-String).trim()
        write-host ($objectToDump | format-list -Property $propertyNameArray | Out-String).trim()
      }
      catch{
